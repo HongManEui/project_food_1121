@@ -96,48 +96,6 @@ public class Shop  {
 
     }
 
-    public static void copyData(OrderPlaced orderPlaced){
-
-        /** Example 1:  new item 
-        Shop shop = new Shop();
-        repository().save(shop);
-
-        */
-
-        /** Example 2:  finding and process
-        
-        repository().findById(orderPlaced.get???()).ifPresent(shop->{
-            
-            shop // do something
-            repository().save(shop);
-
-
-         });
-        */
-
-        
-    }
-    public static void updateStatus(Payed payed){
-
-        /** Example 1:  new item 
-        Shop shop = new Shop();
-        repository().save(shop);
-
-        */
-
-        /** Example 2:  finding and process
-        
-        repository().findById(payed.get???()).ifPresent(shop->{
-            
-            shop // do something
-            repository().save(shop);
-
-
-         });
-        */
-
-        
-    }
 
 
 }
