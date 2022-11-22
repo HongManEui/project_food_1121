@@ -75,8 +75,8 @@ Level 2 실습 예제
 ![21](https://user-images.githubusercontent.com/30682608/203236306-d54dd8e4-8586-43c4-9130-00884d9b5e7b.png)
   
   
-6. Gateway / Breaker
-기본 설정을 확인한다.
+6. Gateway / Breaker 
+: 기본 설정을 확인한다.
   
 ![16](https://user-images.githubusercontent.com/30682608/203220054-1c4615cc-9cc1-48d1-97b5-86fffa314958.png)
 
