@@ -64,8 +64,11 @@ Level 2 실습 예제
 
   
 5. Circuit Breaker
-<>
-<>
+
+![18](https://user-images.githubusercontent.com/30682608/203220712-017f5205-704a-4bab-b3b4-20359bfef950.png)
+
+![19](https://user-images.githubusercontent.com/30682608/203221863-db61f9da-c44b-434e-aab4-fc5347caf6fd.png)
+
 
 6. Gateway / Breaker
 
