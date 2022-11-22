@@ -31,8 +31,21 @@ Level 2 실습 예제
 
 체크포인트
 1. Sage(Pub/Sub)
+
+
 2. CQRS
+
+
 3. Compensation / Correlation
+
+
 4. Request / Response
+<동기호출>
+![6](https://user-images.githubusercontent.com/30682608/203193373-7d08b0c5-6b86-495f-95c5-cddf2d191614.png)
+<비동기호출>
+![7](https://user-images.githubusercontent.com/30682608/203193409-9eca371c-8d27-4fa6-8fab-c59163c2bb5e.png)
+
 5. Circuit Breaker
+
+
 6. Gateway / Breaker
