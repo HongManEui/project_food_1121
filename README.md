@@ -21,7 +21,7 @@ Level 2 실습 예제
 
 [체크포인트]
 
-1. Sage(Pub/Sub)
+1. Saga(Pub/Sub)
 
 <Pub>
   
