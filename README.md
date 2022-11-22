@@ -54,7 +54,6 @@ Level 2 실습 예제
   
 4. Request / Response
   
-  
 <동기호출>
 
 ![6](https://user-images.githubusercontent.com/30682608/203193373-7d08b0c5-6b86-495f-95c5-cddf2d191614.png)
@@ -65,6 +64,7 @@ Level 2 실습 예제
 
   
 5. Circuit Breaker
+  : Circuit Breaker를 설정, Circuit Breaker 전후로 부하를 준 뒤 확인 
 
 ![18](https://user-images.githubusercontent.com/30682608/203220712-017f5205-704a-4bab-b3b4-20359bfef950.png)
 
@@ -76,7 +76,7 @@ Level 2 실습 예제
   
   
 6. Gateway / Breaker 
-: 기본 설정을 확인한다.
+  : 기본 설정을 확인한다.
   
 ![16](https://user-images.githubusercontent.com/30682608/203220054-1c4615cc-9cc1-48d1-97b5-86fffa314958.png)
 
