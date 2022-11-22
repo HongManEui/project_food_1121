@@ -39,7 +39,9 @@ Level 2 실습 예제
 
 ![11](https://user-images.githubusercontent.com/30682608/203207076-391cab54-7dac-461e-8052-15f9b0fea568.png)
 
-  
+![12](https://user-images.githubusercontent.com/30682608/203216785-abe3f5dd-4ea7-469b-b07e-efeefeb91f5f.png)
+
+![13](https://user-images.githubusercontent.com/30682608/203217081-53df9cc9-95a9-4367-a8eb-6afb269414fa.png)
 
 
 3. Compensation / Correlation
