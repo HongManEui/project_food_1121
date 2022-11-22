@@ -22,6 +22,7 @@ Level 2 실습 예제
 [체크포인트]
 
 1. Saga(Pub/Sub)
+: Pub/Sub에 해당하는 front에서 음식 주문을 하고 fooddelivery에서 받는 것을 확인한다.
 
 <Pub>
   
