@@ -71,6 +71,8 @@ Level 2 실습 예제
 
 ![20](https://user-images.githubusercontent.com/30682608/203236042-c8fbe295-acd7-420c-8fd8-d04b48431ad8.png)
 
+![21](https://user-images.githubusercontent.com/30682608/203236306-d54dd8e4-8586-43c4-9130-00884d9b5e7b.png)
+  
   
 6. Gateway / Breaker
 
