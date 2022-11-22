@@ -53,6 +53,7 @@ Level 2 실습 예제
   
   
 4. Request / Response
+  : 소스 내 각 케이스 확인
   
 <동기호출>
 
