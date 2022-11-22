@@ -22,9 +22,11 @@ Level 2 실습 예제
 1. 고객이 메뉴를 선택하여 주문한다.
 
 <policyhandler.java>
+
 ![2](https://user-images.githubusercontent.com/30682608/203190429-cfc79451-db42-49f4-b25a-954d964c22d5.png)
 
 <order.java>
+
 ![3](https://user-images.githubusercontent.com/30682608/203190437-44d5a023-c479-49bd-a2b4-5e029dba1232.png)
 
 2. 고객이 선택한 메뉴에 대해 결제한다.
@@ -44,9 +46,11 @@ Level 2 실습 예제
 4. Request / Response
 
 <동기호출>
+
 ![6](https://user-images.githubusercontent.com/30682608/203193373-7d08b0c5-6b86-495f-95c5-cddf2d191614.png)
 
 <비동기호출>
+
 ![7](https://user-images.githubusercontent.com/30682608/203193409-9eca371c-8d27-4fa6-8fab-c59163c2bb5e.png)
 
 5. Circuit Breaker
