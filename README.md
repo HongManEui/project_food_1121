@@ -45,8 +45,8 @@ Level 2 실습 예제
 
 
 3. Compensation / Correlation
-<>
-<>
+
+![14](https://user-images.githubusercontent.com/30682608/203219178-a5af969a-a871-4e90-980c-2e636def8ace.png)
 
 
 4. Request / Response
