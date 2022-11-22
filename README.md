@@ -22,6 +22,8 @@ Level 2 실습 예제
 체크포인트
 1. Sage(Pub/Sub)
 
+![image](https://user-images.githubusercontent.com/30682608/203202517-288328e8-431c-4b42-a9d5-c0e13d979c8f.png)
+
 
 2. CQRS
 
