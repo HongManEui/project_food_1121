@@ -10,7 +10,7 @@ import java.util.Date;
 
 @FeignClient(name = "shop", url = "${api.url.shop}")
 public interface ShopService {
-    @RequestMapping(method= RequestMethod.GET, path="/shops/{id}")
-    public Shop getShop(@PathVariable("id") Long id);
+    @RequestMapping(method= RequestMethod.PUT, path="/shops/{id}/accept")
+    public void accept(@PathVariable("id") Long id, @RequestBody AcceptCommand acceptCommand );
 }
 
