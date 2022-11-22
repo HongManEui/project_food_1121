@@ -2,8 +2,9 @@ package projectfood.domain;
 
 import projectfood.domain.*;
 import projectfood.infra.AbstractEvent;
-import lombok.*;
 import java.util.*;
+import lombok.*;
+
 @Data
 @ToString
 public class OrderCancelled extends AbstractEvent {
@@ -13,9 +14,14 @@ public class OrderCancelled extends AbstractEvent {
     private String foodId;
     private String status;
     private String price;
-    private Object options;
+    private List<String> options;
     private String adress;
     private String storeId;
+
+    public OrderCancelled(Order aggregate){
+        super(aggregate);
+    }
+    public OrderCancelled(){
+        super();
+    }
 }
-
-
