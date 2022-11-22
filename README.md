@@ -42,6 +42,10 @@ Level 2 실습 예제
 
 ![13](https://user-images.githubusercontent.com/30682608/203217081-53df9cc9-95a9-4367-a8eb-6afb269414fa.png)
 
+  : Shop 처리 조회
+  
+![23](https://user-images.githubusercontent.com/30682608/203250054-e4151203-acf4-4fb3-9d53-272dbcf85499.png)
+  
 
 3. Compensation / Correlation
   : OrderCancel의 Compensation에 해당하는 PayCancel에 대한 Correlation 확인
