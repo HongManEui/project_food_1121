@@ -46,7 +46,8 @@ Level 2 실습 예제
 
 
 3. Compensation / Correlation
-
+  : OrderCancel의 Compensation에 해당하는 PayCancel에 대한 Correlation 확인
+  
 ![14](https://user-images.githubusercontent.com/30682608/203219178-a5af969a-a871-4e90-980c-2e636def8ace.png)
 
 ![15](https://user-images.githubusercontent.com/30682608/203219657-9ea9703f-d64e-4365-9d4d-713cbf56a443.png)
