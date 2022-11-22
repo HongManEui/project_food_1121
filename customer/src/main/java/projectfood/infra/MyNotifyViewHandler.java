@@ -39,11 +39,11 @@ public class MyNotifyViewHandler {
 
 
     @StreamListener(KafkaProcessor.INPUT)
-    public void whenPayed_then_UPDATE_1(@Payload Payed payed) {
+    public void whenPaid_then_UPDATE_1(@Payload Paid paid) {
         try {
-            if (!payed.validate()) return;
+            if (!paid.validate()) return;
                 // view 객체 조회
-            Optional<MyNotify> myNotifyOptional = myNotifyRepository.findById(Long.valueOf(payed.getOrderId()));
+            Optional<MyNotify> myNotifyOptional = myNotifyRepository.findById(Long.valueOf(paid.getOrderId()));
 
             if( myNotifyOptional.isPresent()) {
                  MyNotify myNotify = myNotifyOptional.get();
@@ -180,11 +180,11 @@ public class MyNotifyViewHandler {
     }
 
     @StreamListener(KafkaProcessor.INPUT)
-    public void whenOrderCancled_then_DELETE_1(@Payload OrderCancled orderCancled) {
+    public void whenOrderCancelled_then_DELETE_1(@Payload OrderCancelled orderCancelled) {
         try {
-            if (!orderCancled.validate()) return;
+            if (!orderCancelled.validate()) return;
             // view 레파지 토리에 삭제 쿼리
-            myNotifyRepository.deleteById(orderCancled.getId());
+            myNotifyRepository.deleteById(orderCancelled.getId());
         }catch (Exception e){
             e.printStackTrace();
         }

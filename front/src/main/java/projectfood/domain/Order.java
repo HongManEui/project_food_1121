@@ -1,7 +1,7 @@
 package projectfood.domain;
 
 import projectfood.domain.OrderPlaced;
-import projectfood.domain.OrderCancled;
+import projectfood.domain.OrderCancelled;
 import projectfood.FrontApplication;
 import javax.persistence.*;
 import java.util.List;
@@ -84,8 +84,8 @@ public class Order  {
 
 
 
-        OrderCancled orderCancled = new OrderCancled(this);
-        orderCancled.publishAfterCommit();
+        OrderCancelled orderCancelled = new OrderCancelled(this);
+        orderCancelled.publishAfterCommit();
 
     }
 

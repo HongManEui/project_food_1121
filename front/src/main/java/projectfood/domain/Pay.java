@@ -1,6 +1,6 @@
 package projectfood.domain;
 
-import projectfood.domain.Payed;
+import projectfood.domain.Paid;
 import projectfood.FrontApplication;
 import javax.persistence.*;
 import java.util.List;
@@ -51,8 +51,8 @@ public class Pay  {
     public void onPostPersist(){
 
 
-        Payed payed = new Payed(this);
-        payed.publishAfterCommit();
+        Paid paid = new Paid(this);
+        paid.publishAfterCommit();
 
     }
 
@@ -64,7 +64,7 @@ public class Pay  {
 
 
 
-    public static void cancelPay(OrderCancled orderCancled){
+    public static void cancelPay(OrderCancelled orderCancelled){
 
         /** Example 1:  new item 
         Pay pay = new Pay();
@@ -74,7 +74,7 @@ public class Pay  {
 
         /** Example 2:  finding and process
         
-        repository().findById(orderCancled.get???()).ifPresent(pay->{
+        repository().findById(orderCancelled.get???()).ifPresent(pay->{
             
             pay // do something
             repository().save(pay);

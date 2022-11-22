@@ -1,13 +1,11 @@
 package projectfood.domain;
 
-import projectfood.domain.*;
 import projectfood.infra.AbstractEvent;
+import lombok.Data;
 import java.util.*;
-import lombok.*;
 
 @Data
-@ToString
-public class OrderCancled extends AbstractEvent {
+public class OrderCancelled extends AbstractEvent {
 
     private Long id;
     private String customerId;
@@ -17,11 +15,4 @@ public class OrderCancled extends AbstractEvent {
     private List<String> options;
     private String adress;
     private String storeId;
-
-    public OrderCancled(Order aggregate){
-        super(aggregate);
-    }
-    public OrderCancled(){
-        super();
-    }
 }
