@@ -20,6 +20,11 @@ Level 2 실습 예제
 
 구현 요구사항
 1. 고객이 메뉴를 선택하여 주문한다.
+<policyhandler.java>
+![2](https://user-images.githubusercontent.com/30682608/203190429-cfc79451-db42-49f4-b25a-954d964c22d5.png)
+<order.java>
+![3](https://user-images.githubusercontent.com/30682608/203190437-44d5a023-c479-49bd-a2b4-5e029dba1232.png)
+
 2. 고객이 선택한 메뉴에 대해 결제한다.
 
 
