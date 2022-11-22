@@ -21,7 +21,7 @@ Level 2 실습 예제
 구현 요구사항
 1. 고객이 메뉴를 선택하여 주문한다.
 
-gitpod /workspace/project_food_1121/deliveryFood (main) $ http localhost:8083/deliveries orderId=1
+command : gitpod /workspace/project_food_1121/deliveryFood (main) $ http localhost:8083/deliveries orderId=1
 
 ![8](https://user-images.githubusercontent.com/30682608/203198768-8c103f3f-3633-4e00-805e-a1cfe862d60f.png)
 
