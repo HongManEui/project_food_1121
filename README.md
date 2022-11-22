@@ -36,7 +36,7 @@ Level 2 실습 예제
 
 
 2. CQRS
-  : 
+  : OrderReject에 따른 Cancel 처리 소스 및 조회
 
 ![11](https://user-images.githubusercontent.com/30682608/203207076-391cab54-7dac-461e-8052-15f9b0fea568.png)
 
