@@ -87,6 +87,11 @@ public class Order  {
         OrderCancelled orderCancelled = new OrderCancelled(this);
         orderCancelled.publishAfterCommit();
 
+        // Get request from Shop
+        //projectfood.external.Shop shop =
+        //    Application.applicationContext.getBean(projectfood.external.ShopService.class)
+        //    .getShop(/** mapping value needed */);
+
     }
 
     public static OrderRepository repository(){
