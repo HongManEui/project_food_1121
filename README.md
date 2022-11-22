@@ -54,7 +54,7 @@ Level 2 실습 예제
 4. Request / Response
   : 소스 내 각 케이스 확인
   
-<동기호출>
+<동기호출> : (Event-Command)
 
 ![6](https://user-images.githubusercontent.com/30682608/203193373-7d08b0c5-6b86-495f-95c5-cddf2d191614.png)
 
