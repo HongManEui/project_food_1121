@@ -35,8 +35,12 @@ Level 2 실습 예제
 
 
 2. CQRS
-<>
-<>
+
+
+![11](https://user-images.githubusercontent.com/30682608/203207076-391cab54-7dac-461e-8052-15f9b0fea568.png)
+
+  
+
 
 3. Compensation / Correlation
 <>
