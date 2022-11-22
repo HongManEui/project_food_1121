@@ -64,7 +64,7 @@ public class Pay  {
 
 
 
-    public static void canclePay(OrderCancled orderCancled){
+    public static void cancelPay(OrderCancled orderCancled){
 
         /** Example 1:  new item 
         Pay pay = new Pay();
@@ -85,7 +85,7 @@ public class Pay  {
 
         
     }
-    public static void canclePay(OrderRejected orderRejected){
+    public static void cancelPay(OrderRejected orderRejected){
 
         /** Example 1:  new item 
         Pay pay = new Pay();
