@@ -21,6 +21,8 @@ Level 2 실습 예제
 구현 요구사항
 1. 고객이 메뉴를 선택하여 주문한다.
 
+![8](https://user-images.githubusercontent.com/30682608/203198768-8c103f3f-3633-4e00-805e-a1cfe862d60f.png)
+
 <policyhandler.java>
 
 ![2](https://user-images.githubusercontent.com/30682608/203190429-cfc79451-db42-49f4-b25a-954d964c22d5.png)
